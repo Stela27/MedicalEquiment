@@ -1,0 +1,57 @@
+  <!-- libreria de carrucel -->
+    <link rel="stylesheet" href="css/carrucel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/carrucel/owl.theme.default.min.css">
+
+
+
+<div id="c_miembros" class="owl-carousel owl-theme justify-content-center">
+          <div class="item">
+
+            <div class="card testimonial-card mb-3">
+              <div class="card-up2"></div>
+              <div class="avatar mx-auto">
+                <img src="img/personalidades/pediente.jpeg" class="rounded-circle" alt="woman avatar">
+              </div>
+              <div class="card-body text-center">
+                <h6 class="mb-1 font-weight-bold text-verde">Texto pendiente</h6>
+                <div class="h_altura">
+                  <h4 class="card-title text-cafe font-weight-bold">Texto pendiente</h4>
+                </div>
+
+                <p class="elegant-ic line-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+                  adipisci
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+<!-- carrulce -->
+<script src="js/carrucel/owl.carousel.min.js"></script>
+
+
+
+$('#c_miembros').owlCarousel({
+      loop: true,
+      nav: false,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 6000,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3,
+          loop: false
+        }
+      }
+    });

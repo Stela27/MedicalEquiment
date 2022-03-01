@@ -1,0 +1,42 @@
+main{
+  background: linear-gradient(50deg,rgba(174, 225, 254, 0.849), rgba(168, 190, 250, 0.685), rgba(225, 211, 235, 0.74))!important;
+  height: auto;
+  /* background: cover; */
+}
+/* card general */
+.card-diseng .fondo-card{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border: none;
+  /* background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255, 255, 255, 0.233)); */
+  /* Efecto cristalino */
+  /* background-color: rgba(255, 255, 255, 0.507);  
+  backdrop-filter: blur(5px); */
+  background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+}
+/* galleria */
+/* galleria */
+#galleria {
+  height: 320px;
+}
+.galleria-theme-classic {
+  background: #b8edf6b0!important;
+}
+/* boton comentarios */
+.btn-comentario{
+  color: #ffffff!important;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 3px;
+  background: #2BBBAD!important;
+}
+/* boton agendar */
+.btn-agendar{
+  color: #ffffff!important;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 3px;
+  background: #5c9ce6!important;
+}

@@ -1,0 +1,389 @@
+/* diseño del body  del public principal*/
+html,body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+/* .espacio{
+    height: 30vh;
+}
+
+@media(max-width:442px) {
+    .espacio{
+      height: 80vh;
+    }
+  } */
+
+  #barra_buscador {
+    /* background: #94c2eb; */
+    /* background: #488fec; */
+    background: rgba(140,190,231);
+    position: sticky;
+    top: 55px;
+    z-index: 99;
+  }
+
+  @media(max-width:992px) {
+    .id_menu {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  @media(max-width:395px) {
+    .id_menu a {
+      font-size: 12.8px;
+    }
+  }
+  /* Carrosel de pasos */
+  /* fondos de cada seccion */
+  .fondo-blanco{
+    background:rgb(253, 253, 253);
+    height: auto;
+  }
+  /* carrousel  de beneficios */
+  .services-list{
+    background-color: rgba(250,250,250,0.25);
+    /* background-color: rgb(245, 12, 12); */
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    height: 200px;
+    
+  }
+  /* .services-list:hover {
+    background-color: rgb(77, 222, 241);
+    color: #1e1e1e;
+  } */
+  .tamanio{
+    font-size: 60px;
+    color: rgb(5, 182, 206);
+  }
+  .btn_medico{
+    background-color:#200486;
+    color: white;
+  }
+
+  /* termina carrousel de pasos */
+
+  
+/*******************************/
+/******* Section Header ********/
+/*******************************/
+.section-header {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-bottom: 15px;
+}
+.section-header::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 3px;
+  left: calc(50% - 50px);
+  bottom: 0;
+  background: linear-gradient(to left, #FFD662, #00539C, #FFD662);
+  border-radius: 100%;
+}
+
+.section-header::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 9px;
+  left: calc(50% - 10px);
+  bottom: -3px;
+  background: #00539C;
+  border-radius: 5px;
+}
+
+.section-header p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.section-header h2 {
+  color: #2196f3;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.section-header.left {
+  text-align: left;
+}
+
+.section-header.left::before {
+  width: 60px;
+  left: 0;
+  background: linear-gradient(to left, #FFD662, #00539C, #00539C);
+  border-radius: 0 100% 100% 0;
+}
+
+.section-header.left::after {
+  left: 0;
+  border-radius: 5px;
+}
+
+
+/*******************************/
+/********* Service CSS *********/
+/*******************************/
+.service {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
+}
+
+.service .service-item {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.service .service-item img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.service .service-item h3 {
+  margin: 0;
+  padding: 25px 15px 15px 15px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #00539C;
+}
+
+.service .service-item p {
+  margin: 0;
+  padding: 0 25px 25px 25px;
+  font-size: 16px;
+}
+
+.service .service-item a.btn {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background: #0156a2;
+  transition: .3s;
+}
+
+.service .service-item:hover a.btn {
+  color: #ffffff;
+  background: #0f90f6;
+}
+
+.service .service-item a.btn:hover {
+  color:#ffffff;
+  background: #488fec;
+}
+.service .margen-img{
+  margin-top: 10px;
+}
+
+/*******************************/
+
+
+/*******************************/
+/*********** FAQs CSS **********/
+/*******************************/
+.faqs {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.faqs .section-header {
+  margin-bottom: 30px;
+}
+
+.faqs img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media(max-width: 767.98px) {
+  .faqs img {
+      margin-bottom: 30px;
+  }
+}
+
+.faqs .card {
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.faqs .card:last-child {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.faqs .card-header {
+  padding: 0;
+  border: none;
+  background: #ffffff;
+}
+
+.faqs .card-header a {
+  display: block;
+  width: 100%;
+  color: #00539C;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.faqs .card-header a span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #FFD662;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.faqs .card-header [data-toggle="collapse"]:after {
+  font-family: 'font Awesome 5 Free';
+  content: "\f067";
+  float: right;
+  color: #00539C;
+  font-size: 12px;
+  font-weight: 900;
+  transition: .3s;
+}
+
+.faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
+  font-family: 'font Awesome 5 Free';
+  content: "\f068";
+  float: right;
+  color: #00539C;
+  font-size: 12px;
+  font-weight: 900;
+  transition: .3s;
+}
+
+.faqs .card-body {
+  padding: 15px 5px 10px 10px;
+  font-size: 16px;
+  border: none;
+  background: #ffffff;
+}
+
+.faqs a.btn {
+  margin-top: 30px;
+  padding: 15px 35px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  background: #FFD662;
+  transition: .3s;
+}
+
+.faqs a.btn:hover {
+  color: #ffffff;
+  background: #00539C;
+}
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+
+
+/* -----------------------------------*/
+/* ----------------------------------- */
+/* -----------seccion card medico----- */
+.section-beneficios-doctor .imagen-doctor >img{
+  width: 100%;
+  height: auto;
+}
+.section-beneficios-doctor a.btn-medico {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background: #0156a2;
+  transition: .3s;
+}
+
+.section-beneficios-doctor a.btn-medico:hover{
+  color: #ffffff;
+  background: #0f90f6;
+}
+.mover-flex-card{
+  display: flex;
+  align-items: center;
+}
+.section-beneficios-doctor  .card{
+  align-self: center;
+}
+/* -----------------------------------*/
+/* ----------------------------------- */
+/* -----------footer------------------ */
+.texto .textcolor-negrita{
+  color: #8f8a8a;
+}
+.list-unstyled li >a{
+  color: #8f8a8a!important;
+}
+
+
+
+
+
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------diseño del login modal----*/
+/* fondo detras del login modal */
+.fade_login{
+  background: linear-gradient(rgba(174, 225, 254), rgba(168, 190,250), rgba(225, 211, 235))!important;
+  /* background: #ffffff; */
+}
+/* fondo del contenedor del login */
+.modal-content{
+  border: 1px solid rgba(255, 255, 255, .4)!important;
+  /* background: rgba(169,188,249)!important;  */
+  background: rgba(231,233, 240)!important;
+}
+.login-register{
+  display: block;
+  justify-content: space-around;
+  /* alinear horixontalmente */
+  align-items: center;
+  /* alinear verticalmente */
+  align-self: center;
+}
+.btn-re{
+  color: #200486;
+  /* width: 50px;
+  height: 40px; */
+  padding: 5px;
+  border-radius: 3px;
+  /* background: #b3c2f7; */
+}

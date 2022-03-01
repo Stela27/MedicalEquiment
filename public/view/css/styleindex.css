@@ -1,0 +1,77 @@
+
+.carousel {
+  height: 80vh;
+}
+
+.page-footer,
+.top-nav-collapse {
+  background-color:#68d8ce;
+}
+
+
+.blue-text {
+  color: #0095e5;
+}
+
+.line-h1 {
+  line-height: .8;
+}
+
+.costo {
+  font-size: 30px;
+}
+
+.carousel-indicators li {
+  background-color: #2196F3;
+}
+
+
+@media(max-width:769px) {
+  .img_estudios {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #929FBA !important;
+  }
+}
+
+@media(max-width:442px) {
+  .carousel {
+    height: 100vh;
+  }
+}
+/* estilos del menu */
+.medical-texto{
+  color: #fff!important;
+  text-transform: uppercase;
+ }
+ .medical-texto:hover{
+  color: #2196f3!important;
+ }
+ .text-color{
+  color: #fff!important;
+ }
+ .text-color:hover{
+  color: #2196f3!important;
+ }
+ .bor{
+     border: 1px solid #3a0ae6;
+ }
+/* menu */
+#fondo-menu {
+  /* background: linear-gradient(33deg, #017ddd, #017ddd) !important; */
+  background: linear-gradient(14deg,rgba(139,182,225),rgba(178,191,235),rgba(144,196,233));
+
+}
+.page-footer,
+.top-nav-collapse {
+  background-color: #0f90f6;
+}
+
+.id_menu {
+  text-align: right;
+  width: 80%;
+}

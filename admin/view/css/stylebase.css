@@ -1,0 +1,59 @@
+/* especialidad-view*/
+/* inicio */
+#fechas_host,
+#fechas_domin,
+#datos_web,
+#p_medios {
+  display: none;
+}
+
+#preview > img {
+  width: 100%;
+}
+
+#load_img {
+  display: none;
+}
+/* fin */
+/* css calendario-view.php */
+/* Inicio */
+#calendar{
+  margin: 0;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 0.5;
+    padding: 0;
+} 
+
+#calendar .btn{
+    margin: 1px;
+}
+
+.custom-select-sm {
+    height: calc(1.5em + .5rem + 2px);
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    font-size: .875rem;
+}
+
+#dtable_length>label>select{
+  height: 35px;
+  padding-right: 7px;
+}
+  #preview>img {
+    width: 100%;
+  }
+
+  #load_img {
+    display: none;
+  }
+  
+
+  @media (min-width: 1200px){
+      .navbar, .page-footer, main {
+          padding-left: 270px;
+      }
+  }
+/* fin */
